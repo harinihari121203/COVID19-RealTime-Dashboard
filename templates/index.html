@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Analytics Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <button class="theme-toggle">🌙 Dark Mode</button>
+        <h1>COVID-19 Analytics Dashboard</h1>
+
+        <div id="global-stats" class="stats">
+            <div class="card confirmed">
+                <h2>Total Cases</h2>
+                <p id="total-cases">Loading...</p>
+            </div>
+            <div class="card recovered">
+                <h2>Total Recoveries</h2>
+                <p id="total-recoveries">Loading...</p>
+            </div>
+            <div class="card deaths">
+                <h2>Total Deaths</h2>
+                <p id="total-deaths">Loading...</p>
+            </div>
+        </div>
+        <break></break>
+        <div class="chart-container">
+            <h2>Top 10 Countries by Cases</h2>
+            <canvas id="barChart"></canvas>
+        </div>
+        <break></break>
+        <div class="chart-container">
+            <h2>Case Distribution</h2>
+            <canvas id="pieChart"></canvas>
+        </div>
+        <break></break>
+        <div class="chart-container">
+            <h2>Global Trends Over Last 30 Days</h2>
+            <canvas id="lineChart"></canvas>
+        </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+</body>
+</html>
