@@ -4,7 +4,7 @@ An interactive web application built with [Plotly Dash](https://plotly.com/dash/
 
 ## 🌐 Live Demo
 
-Access the live dashboard here: [https://your-app-name.onrender.com](https://your-app-name.onrender.com)
+Access the live dashboard here: https://covid19-realtime-dashboard.onrender.com/
 
 ## 🚀 Features
 
