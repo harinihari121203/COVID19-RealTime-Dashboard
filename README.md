@@ -6,12 +6,6 @@ An interactive web application built with [Plotly Dash](https://plotly.com/dash/
 
 Access the live dashboard here: [https://your-app-name.onrender.com](https://your-app-name.onrender.com)
 
-## 📸 Screenshots
-
-![Dashboard Overview](assets/dashboard_overview.png)
-
-*Add additional screenshots as needed to showcase different features of your dashboard.*
-
 ## 🚀 Features
 
 - Real-time global COVID-19 data visualization
